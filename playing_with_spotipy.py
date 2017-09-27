@@ -455,7 +455,7 @@ def get_top_tracks():
 
 '''What do I want to build here?
 
-buil
+
 
 * network explorer for new songs
     - Get list of tracks
@@ -474,6 +474,13 @@ buil
         ~get list of tracks by album
         ~end dataset of artist-album-track to join in details (popularity, etc.)
 
+* Workflow for managing candidate queue,
+    - create "Inbox" playlist from candidate track/artist list
+    - create "Outbox" playlists for songs I liked/songs I didn't
+    - Build logic for what to add to inbox:
+        ~ Feedback from Outbox dataset
+        ~ Newness/trend of recommendation improvement
+    
 
 Masterplan:
 1)  Run main_run() to get related artist network structure- Done
@@ -484,6 +491,7 @@ Masterplan:
 5)  Run promising track analyses on artists tracks (To Be Built)
     ~ Most popular tracks by album
 6)  Merge
+
 
 
 
